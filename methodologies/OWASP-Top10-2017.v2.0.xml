@@ -1,0 +1,361 @@
+<board version="2"><name>OWASP Top 10 - 2017</name><list><name>Pending</name><previous_id/><card><name>[A1-Injection] Identify entry points: where does user-controllable data gets processed by the app?</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Identify entry points: where does user-controllable data gets processed by the app?
+
+]]></description></card><card><name>[A1-Injection] Identify all GET/POST parameters (careful, parts of the URL might be parameters!)</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Identify all GET/POST parameters (careful, parts of the URL might be parameters!)
+
+]]></description></card><card><name>[A1-Injection] Inspect cookie values</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Inspect cookie values
+
+]]></description></card><card><name>[A1-Injection] Test for SQL injection</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for SQL injection
+
+]]></description></card><card><name>[A1-Injection] Test for Path traversal</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for Path traversal
+
+]]></description></card><card><name>[A1-Injection] Test of XSS as well as other scripting languages(VBscript?)</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test of XSS as well as other scripting languages(VBscript?)
+
+]]></description></card><card><name>[A1-Injection] Test for SMTP injection</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for SMTP injection
+
+]]></description></card><card><name>[A1-Injection] Test for LDAP injection</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for LDAP injection
+
+]]></description></card><card><name>[A1-Injection] Test for XPath injection</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for XPath injection
+
+]]></description></card><card><name>[A1-Injection] Test for XML and SOAP injection</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for XML and SOAP injection
+
+]]></description></card><card><name>[A1-Injection] Test for HTTP parameter injection</name><description><![CDATA[#[Section]#
+A1-Injection
+
+#[Description]#
+Test for HTTP parameter injection
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Test password quality rules</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Test password quality rules
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Try to figure out if passwords are stored in clear-text</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Try to figure out if passwords are stored in clear-text
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Test secondary authentication: forgotten password, account recovery, etc.</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Test secondary authentication: forgotten password, account recovery, etc.
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Review cookie flags</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Review cookie flags
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Review cookie path and domain attributes</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Review cookie path and domain attributes
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Verify session token strength</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Verify session token strength
+
+]]></description></card><card><name>[A2–Broken Authentication and Session Management] Review the session termination implementation</name><description><![CDATA[#[Section]#
+A2–Broken Authentication and Session Management
+
+#[Description]#
+Review the session termination implementation
+
+]]></description></card><card><name>[A3–Sensitive Data Exposure] What can constitute "sensitive data" for this application's users</name><description><![CDATA[#[Section]#
+A3–Sensitive Data Exposure
+
+#[Description]#
+What can constitute "sensitive data" for this application's users
+
+]]></description></card><card><name>[A3–Sensitive Data Exposure] How well protected is it?</name><description><![CDATA[#[Section]#
+A3–Sensitive Data Exposure
+
+#[Description]#
+How well protected is it?
+
+]]></description></card><card><name>[A3–Sensitive Data Exposure] Is the application running over SSL?</name><description><![CDATA[#[Section]#
+A3–Sensitive Data Exposure
+
+#[Description]#
+Is the application running over SSL?
+
+]]></description></card><card><name>[A3–Sensitive Data Exposure] From before the authenticated session started?</name><description><![CDATA[#[Section]#
+A3–Sensitive Data Exposure
+
+#[Description]#
+From before the authenticated session started?
+
+]]></description></card><card><name>[A3–Sensitive Data Exposure] What about the SSL configuration (e.g. SSLv2, weak ciphers, certificate)?</name><description><![CDATA[#[Section]#
+A3–Sensitive Data Exposure
+
+#[Description]#
+What about the SSL configuration (e.g. SSLv2, weak ciphers, certificate)?
+
+]]></description></card><card><name>[A4–XML External Entities] Figure out if the application parses XML documents. This section doesn't apply if not.</name><description><![CDATA[#[Section]#
+A4–XML External Entities
+
+#[Description]#
+Figure out if the application parses XML documents. This section doesn't apply if not.
+
+]]></description></card><card><name>[A4–XML External Entities] Check that no tainted data is allowed within the system identifier portion of the entity, within the document type declaration</name><description><![CDATA[#[Section]#
+A4–XML External Entities
+
+#[Description]#
+Check that no tainted data is allowed within the system identifier portion of the entity, within the document type declaration
+
+]]></description></card><card><name>[A4–XML External Entities] Check that XML processor is not configured to validate and process the DTD.</name><description><![CDATA[#[Section]#
+A4–XML External Entities
+
+#[Description]#
+Check that XML processor is not configured to validate and process the DTD.
+
+]]></description></card><card><name>[A4–XML External Entities] Check that XML processor is not configured to resolve external entities within the DTD.</name><description><![CDATA[#[Section]#
+A4–XML External Entities
+
+#[Description]#
+Check that XML processor is not configured to resolve external entities within the DTD.
+
+]]></description></card><card><name>[A4–XML External Entities] Figure out if the XML parsing library can be checked against https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet#Validator</name><description><![CDATA[#[Section]#
+A4–XML External Entities
+
+#[Description]#
+Figure out if the XML parsing library can be checked against https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Prevention_Cheat_Sheet#Validator
+
+]]></description></card><card><name>[A5–Broken Access Control] Spot any parameters where application objects such as projects or documents are referenced by their :id</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Spot any parameters where application objects such as projects or documents are referenced by their :id
+
+]]></description></card><card><name>[A5–Broken Access Control] Change the :id to see if you can get access to other user's objects</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Change the :id to see if you can get access to other user's objects
+
+]]></description></card><card><name>[A5–Broken Access Control] Don't limit your testing to GET requests. Edit an object and change the :id before submitting your changes</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Don't limit your testing to GET requests. Edit an object and change the :id before submitting your changes
+
+]]></description></card><card><name>[A5–Broken Access Control] Remember that :id values can be part of the URL (REST-style applications) or passed in cookies</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Remember that :id values can be part of the URL (REST-style applications) or passed in cookies
+
+]]></description></card><card><name>[A5–Broken Access Control] Log in as the highest possible user role. Map every modules of the application.</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Log in as the highest possible user role. Map every modules of the application.
+
+]]></description></card><card><name>[A5–Broken Access Control] Log in as a lower privilege role. Map functionality and contrast.</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Log in as a lower privilege role. Map functionality and contrast.
+
+]]></description></card><card><name>[A5–Broken Access Control] Run everything through a proxy to ensure you spot any ajax calls.</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Run everything through a proxy to ensure you spot any ajax calls.
+
+]]></description></card><card><name>[A5–Broken Access Control] It's important to try every single page / URL. The application may be using per-page controls and these could be missing in a single module.</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+It's important to try every single page / URL. The application may be using per-page controls and these could be missing in a single module.
+
+]]></description></card><card><name>[A5–Broken Access Control] Inspect JavaScript libraries for menu items and modules hidden from the interface doing client-side checks</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Inspect JavaScript libraries for menu items and modules hidden from the interface doing client-side checks
+
+]]></description></card><card><name>[A5–Broken Access Control] Are there any modules that handle static resources like log files, Excel spreadsheets or PDFs? Check their access control rules.</name><description><![CDATA[#[Section]#
+A5–Broken Access Control
+
+#[Description]#
+Are there any modules that handle static resources like log files, Excel spreadsheets or PDFs? Check their access control rules.
+
+]]></description></card><card><name>[A6–Security Misconfiguration] Run Nikto against the server to find common configuration flaws</name><description><![CDATA[#[Section]#
+A6–Security Misconfiguration
+
+#[Description]#
+Run Nikto against the server to find common configuration flaws
+
+]]></description></card><card><name>[A6–Security Misconfiguration] Run Dirbuster to uncover hidden / default content</name><description><![CDATA[#[Section]#
+A6–Security Misconfiguration
+
+#[Description]#
+Run Dirbuster to uncover hidden / default content
+
+]]></description></card><card><name>[A6–Security Misconfiguration] Have you identified the server platform? What about common administrative interfaces (e.g. /manager/html, /jmx-console)?</name><description><![CDATA[#[Section]#
+A6–Security Misconfiguration
+
+#[Description]#
+Have you identified the server platform? What about common administrative interfaces (e.g. /manager/html, /jmx-console)?
+
+]]></description></card><card><name>[A6–Security Misconfiguration] Run a port scan against the server and manually review any open ports</name><description><![CDATA[#[Section]#
+A6–Security Misconfiguration
+
+#[Description]#
+Run a port scan against the server and manually review any open ports
+
+]]></description></card><card><name>[A6–Security Misconfiguration] Are there any known issues with the application platform (e.g. default Wordpress files, setup script, etc.)?</name><description><![CDATA[#[Section]#
+A6–Security Misconfiguration
+
+#[Description]#
+Are there any known issues with the application platform (e.g. default Wordpress files, setup script, etc.)?
+
+]]></description></card><card><name>[A6–Security Misconfiguration] Does the /robots.txt reveal anything juicy</name><description><![CDATA[#[Section]#
+A6–Security Misconfiguration
+
+#[Description]#
+Does the /robots.txt reveal anything juicy
+
+]]></description></card><card><name>[A7–Cross-Site Scripting (XSS)] For every field where you can persist some information try to inject a JS payload</name><description><![CDATA[#[Section]#
+A7–Cross-Site Scripting (XSS)
+
+#[Description]#
+For every field where you can persist some information try to inject a JS payload
+
+]]></description></card><card><name>[A7–Cross-Site Scripting (XSS)] Pay attention to where in the response your payload is injected (inside an HTML tag / attribute / script block / JS function)</name><description><![CDATA[#[Section]#
+A7–Cross-Site Scripting (XSS)
+
+#[Description]#
+Pay attention to where in the response your payload is injected (inside an HTML tag / attribute / script block / JS function)
+
+]]></description></card><card><name>[A7–Cross-Site Scripting (XSS)] The XSS cheatseet is your friend: http://ha.ckers.org/xss.html</name><description><![CDATA[#[Section]#
+A7–Cross-Site Scripting (XSS)
+
+#[Description]#
+The XSS cheatseet is your friend: http://ha.ckers.org/xss.html
+
+]]></description></card><card><name>[A7–Cross-Site Scripting (XSS)] Remember to test for browser-specific vectors</name><description><![CDATA[#[Section]#
+A7–Cross-Site Scripting (XSS)
+
+#[Description]#
+Remember to test for browser-specific vectors
+
+]]></description></card><card><name>[A7–Cross-Site Scripting (XSS)] Have you tested for DOM-based XSS?</name><description><![CDATA[#[Section]#
+A7–Cross-Site Scripting (XSS)
+
+#[Description]#
+Have you tested for DOM-based XSS?
+
+]]></description></card><card><name>[A7–Cross-Site Scripting (XSS)] Does the application receive input from external sources like email or social streams? Are these validated?</name><description><![CDATA[#[Section]#
+A7–Cross-Site Scripting (XSS)
+
+#[Description]#
+Does the application receive input from external sources like email or social streams? Are these validated?
+
+]]></description></card><card><name>[A8-Insecure Deserialization] Check that we are using serialization solutions, where only primitive data types are allowed (ideal case)</name><description><![CDATA[#[Section]#
+A8-Insecure Deserialization
+
+#[Description]#
+Check that we are using serialization solutions, where only primitive data types are allowed (ideal case)
+
+]]></description></card><card><name>[A8-Insecure Deserialization] Check if we are logging all unexpected serialization inputs with automatic notifications to have early warning.</name><description><![CDATA[#[Section]#
+A8-Insecure Deserialization
+
+#[Description]#
+Check if we are logging all unexpected serialization inputs with automatic notifications to have early warning.
+
+]]></description></card><card><name>[A8-Insecure Deserialization] Check that deserialization modules should run with the least privileges possible.</name><description><![CDATA[#[Section]#
+A8-Insecure Deserialization
+
+#[Description]#
+Check that deserialization modules should run with the least privileges possible.
+
+]]></description></card><card><name>[A8-Insecure Deserialization] Check that integrity checks of serialized objects to prevent data tampering</name><description><![CDATA[#[Section]#
+A8-Insecure Deserialization
+
+#[Description]#
+Check that integrity checks of serialized objects to prevent data tampering
+
+]]></description></card><card><name>[A9-Using Components with Known Vulnerabilities] Inspect the server response headers: out of date server software?</name><description><![CDATA[#[Section]#
+A9-Using Components with Known Vulnerabilities
+
+#[Description]#
+Inspect the server response headers: out of date server software?
+
+]]></description></card><card><name>[A9-Using Components with Known Vulnerabilities] Inspect the server response headers: out of date server modules (e.g. mod_ssl, mod_jk)?</name><description><![CDATA[#[Section]#
+A9-Using Components with Known Vulnerabilities
+
+#[Description]#
+Inspect the server response headers: out of date server modules (e.g. mod_ssl, mod_jk)?
+
+]]></description></card><card><name>[A9-Using Components with Known Vulnerabilities] Inspect the server response headers: out of date application framework (e.g. Rails)</name><description><![CDATA[#[Section]#
+A9-Using Components with Known Vulnerabilities
+
+#[Description]#
+Inspect the server response headers: out of date application framework (e.g. Rails)
+
+]]></description></card><card><name>[A9-Using Components with Known Vulnerabilities] Review client-side JavaScript libraries</name><description><![CDATA[#[Section]#
+A9-Using Components with Known Vulnerabilities
+
+#[Description]#
+Review client-side JavaScript libraries
+
+]]></description></card><card><name>[A9-Using Components with Known Vulnerabilities] Is the application using any third-party modules (charting libs, flash videos, social plugins)?</name><description><![CDATA[#[Section]#
+A9-Using Components with Known Vulnerabilities
+
+#[Description]#
+Is the application using any third-party modules (charting libs, flash videos, social plugins)?
+
+]]></description></card><card><name>[A10– Insufficient Logging &amp; Monitoring] Make sure logging is not neglected and the logs are easily available</name><description><![CDATA[#[Section]#
+A10– Insufficient Logging & Monitoring
+
+#[Description]#
+Make sure logging is not neglected and the logs are easily available
+
+]]></description></card></list><list><name>Done</name></list></board>
